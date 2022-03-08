@@ -1,0 +1,81 @@
+Aim: To Implement, Another If Else and 
+elif statements
+
+
+6,50,000
+
+2,00,000 - 4,00,000
+
+IT=0.1*2,00,000 +
+0.2*2,00,000 +
+0.3*50000
+
+4,00,000 - 6,00, 000
+0.2*2,00,000
+
+50,000
+0.3*50000
+
+
+int income = 0;
+cout<<"Enter the income: "<<endl;
+cin>>income;
+
+if(income>200000){
+
+if((income>200000) && (income<400000)){
+	// FIND Sum and return 10%
+}
+
+if((income>400000) && (income<600000)){
+	// FIND Sum and return 20%
+}
+
+if((income>600000){
+	// FIND Sum and return 40%
+}
+
+} else{
+	cout<<"Income Tax is not Applicable to the given income. ");
+}
+
+
+
+
+income = int(input("Enter the income: "));
+
+if(income>200000):
+    if((income>200000) and (income<400000)):
+	# FIND Sum and return 10%
+
+        if((income>400000) and (income<600000)):
+        # FIND Sum and return 20%
+
+            if((income>600000)):
+            # FIND Sum and return 40%
+   
+                else:
+                print "Income Tax is not Applicable to the given income. "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
