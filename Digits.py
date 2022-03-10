@@ -1,6 +1,8 @@
-num = int(input("Enter the Number: "))
-words = {1:"one",3:"three",2:"two",4:"Four",5:"Five", 
-         6:"Six", 7:"Seven", 8:"Eight", 9:"Nine", 0:"Zero"
-        }
-digit = num%10
-print(digit)
+num = int(input("Enter a 3 digit Number: "))
+d3 = num%10
+d2 = int(num/10)%10
+d1= int(num/100)
+print (d1, d2,d3)
+
+if d1==1:
+    print("ONE")
