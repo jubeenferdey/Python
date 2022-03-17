@@ -10,7 +10,8 @@ for i in range(n):
 average = int(s/n)
 d = 0
 for i in range(n):
-    d = (weight[i] - average) * (weight[i] - average)
+    d = (weight[i] - average) ** 2  # ** 2 - is the Exponential Operator
+#     d = (weight[i] - average) * (weight[i] - average)
 sd = math.sqrt(d)
 print("The Standard Deviation is: ",sd)
 
