@@ -4,5 +4,4 @@ d2 = int(num/10)%10
 d1= int(num/100)
 print (d1, d2,d3)
 
-if d1==1:
-    print("ONE")
+
