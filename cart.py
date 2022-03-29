@@ -13,11 +13,9 @@ class Order:
         new_cart.insert(0, other)
         return Order(new_cart, self.customer)
 
-order = Order(['Shirt', 'Socks'], 'Amazon')
-
-order = order + 'Tie'
+order = Order(['DogFood', 'CatFood'], 'petStore')
 order.cart
-
-
-order = 'Belt' + order
+order = order + 'Fish'
+order.cart
+order = 'Bones' + order
 order.cart
