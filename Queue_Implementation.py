@@ -1,23 +1,9 @@
-queue = []
- 
-# Adding elements to the queue
-queue.append('a')
-queue.append('b')
-queue.append('c')
- 
-print("Initial queue")
-print(queue)
- 
-# Removing elements from the queue
-print("\nElements dequeued from queue")
-print(queue.pop(0))
-print(queue)
-print("\n")
-print(queue.pop(0))
-print(queue)
-print("\n")
-print(queue.pop(0))
-print(queue)
- 
-print("\nQueue after removing elements")
-print(queue)
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+#arr = np.delete(arr,0)
+for i in range(0,len(arr)):
+    print(arr[0])
+    arr = np.delete(arr,0)
+    print(arr)
+    
